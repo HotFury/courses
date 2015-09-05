@@ -1,0 +1,52 @@
+﻿
+@model MyBlog.WebUI.Models.CodeFirst.PublicationModelView
+
+@{
+    ViewBag.Title = Model.Article.ArticleTitle;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section right_sidebar_style{
+    <link href="@Url.Content("~/Content/Styles/Menu.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/Styles/Article.css")" rel="stylesheet" type="text/css" />
+}
+@section main_body{
+<div class="main-body">
+    @if (!Model.Article.Deleted)
+    {
+        <h2 class="title">@Model.Article.ArticleTitle</h2>
+        <div class="publication-text">
+            @Html.Raw(Model.Article.ArticleText)
+        </div>
+        foreach (var curTag in Model.TagNames)
+        {
+            <div class="article-tag">@Html.ActionLink(@curTag, "SearchByTag", new { id = @curTag })</div>
+        }
+
+    }
+    else
+    {
+        <h2 class="title">Извините, статья удалена</h2>
+    }
+</div>
+
+}
+@section right_sidebar{
+<div class="right-sidebar">
+    <div class="menu">
+        Меню
+        <ol class="menulist">
+            <li class="menuitem">
+                <a class="menutext" href="/Home/Index">Главная</a>
+            </li>
+            <li class="menuitem">
+                <a class="menutext" href="/Feedback/">Отзывы</a>
+            </li>
+            <li class="menuitem">
+                <a class="menutext" href="/Questionary/">Анкета</a>
+            </li>
+        </ol>
+    </div>
+</div>
+}
+
+

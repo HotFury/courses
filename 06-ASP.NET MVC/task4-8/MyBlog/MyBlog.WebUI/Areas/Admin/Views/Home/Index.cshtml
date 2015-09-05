@@ -1,0 +1,48 @@
+﻿@model IEnumerable<MyBlog.Domain.CodeFirst.PublicationEntities.Article>
+@using MyBlog.WebUI.Helpers
+@using MyBlog.WebUI.Models;
+@{
+    ViewBag.Title = "Все публикации";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section right_sidebar_style{
+    <link href="@Url.Content("~/Areas/Admin/Content/Styles/AdminIndex.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/Styles/Pages.css")" rel="stylesheet" type="text/css" />
+}
+@section single_column{
+    <p>
+        @Html.ActionLink("Добавить публикацию", "AddPublication", null, new { @class = "link", id = "create" })
+        @Html.ActionLink("Очистить публикации", "RecycleBin", null, new { @class = "link", id = "drop" })
+    </p>
+    <table class="list">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ArticleTitle)
+            </th>
+            <th></th>
+        </tr>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArticleTitle)
+            </td>
+            <td>
+                @Html.ActionLink("Править", "Edit", new { id=item.Id }, new { @class = "link" } ) |
+                @Html.ActionLink("Подробнее", "Details", new { id = item.Id }, new { @class = "link" }) |
+                @if (item.Deleted)
+                {
+                    @Html.ActionLink("Вернуть", "Restore", new { id = item.Id }, new { @class = "link" })
+                }
+                else
+                {
+                    @Html.ActionLink("Удалить", "Delete", new { id = item.Id }, new { @class = "link" })
+                }
+            </td>
+        </tr>
+    }
+
+    </table>
+    <div class="page-numbers">
+        @Html.CreatePageLinks(ViewBag.pageInfo as PageInfo, x => Url.Action("Index", new { page = x }))
+    </div>
+}

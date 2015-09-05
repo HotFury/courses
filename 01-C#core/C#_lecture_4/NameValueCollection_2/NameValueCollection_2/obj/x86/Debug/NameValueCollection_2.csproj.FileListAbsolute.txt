@@ -1,0 +1,5 @@
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\NameValueCollection_2\NameValueCollection_2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\NameValueCollection_2\NameValueCollection_2\bin\Debug\NameValueCollection_2.exe
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\NameValueCollection_2\NameValueCollection_2\bin\Debug\NameValueCollection_2.pdb
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\NameValueCollection_2\NameValueCollection_2\obj\x86\Debug\NameValueCollection_2.exe
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\NameValueCollection_2\NameValueCollection_2\obj\x86\Debug\NameValueCollection_2.pdb

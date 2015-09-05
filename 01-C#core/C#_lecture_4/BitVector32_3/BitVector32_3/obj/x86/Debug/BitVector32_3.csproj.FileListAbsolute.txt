@@ -1,0 +1,5 @@
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\BitVector32_3\BitVector32_3\bin\Debug\BitVector32_3.exe
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\BitVector32_3\BitVector32_3\bin\Debug\BitVector32_3.pdb
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\BitVector32_3\BitVector32_3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\BitVector32_3\BitVector32_3\obj\x86\Debug\BitVector32_3.exe
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 2\Modul_2\BitVector32_3\BitVector32_3\obj\x86\Debug\BitVector32_3.pdb

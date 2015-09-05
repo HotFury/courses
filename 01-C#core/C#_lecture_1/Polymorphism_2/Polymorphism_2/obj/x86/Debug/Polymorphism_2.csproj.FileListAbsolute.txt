@@ -1,0 +1,10 @@
+D:\projects\Проекты С#\Polymorphism_2\Polymorphism_2\bin\Debug\Polymorphism_2.exe
+D:\projects\Проекты С#\Polymorphism_2\Polymorphism_2\bin\Debug\Polymorphism_2.pdb
+D:\projects\Проекты С#\Polymorphism_2\Polymorphism_2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\projects\Проекты С#\Polymorphism_2\Polymorphism_2\obj\x86\Debug\Polymorphism_2.exe
+D:\projects\Проекты С#\Polymorphism_2\Polymorphism_2\obj\x86\Debug\Polymorphism_2.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\Polymorphism_2\Polymorphism_2\obj\x86\Debug\Polymorphism_2.exe
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\Polymorphism_2\Polymorphism_2\obj\x86\Debug\Polymorphism_2.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\Polymorphism_2\Polymorphism_2\bin\Debug\Polymorphism_2.exe
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\Polymorphism_2\Polymorphism_2\bin\Debug\Polymorphism_2.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\Polymorphism_2\Polymorphism_2\obj\x86\Debug\ResolveAssemblyReference.cache

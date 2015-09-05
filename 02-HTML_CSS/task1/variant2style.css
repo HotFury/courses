@@ -1,0 +1,182 @@
+﻿#sitebody 
+{
+    margin-left: 250px;
+    overflow: hidden;
+}
+.logo 
+{
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    background-color: crimson;
+}
+#head
+{
+    padding-top: 75px;
+}
+#leftbody 
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: blue;
+}
+#rightbody
+{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+    background-color: blueviolet;
+}
+.search 
+{
+    padding-top: 25px;
+	padding-left: 30px;
+    margin-left: 250px;
+    width: 610px;
+    height: 45px;
+    background-color: aqua;
+}
+.menu 
+{
+    padding-top: 10px;
+    text-align: center;
+    height: 145px;
+    width: 120px;
+    padding-bottom: 30px;
+    background-color: dodgerblue;
+}
+.menulist
+{
+    margin-top: -5px;
+}
+.menuitem
+{
+    border-radius: 5px;
+    padding-left: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-left:20px;
+    margin-bottom: 5px;
+    background-color: fuchsia;
+    
+}
+.menucurlink
+{
+    display: block;
+    border-radius: 5px;
+    background-color: darkorange;
+    height: 20px;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.menutext
+{
+    display: block;
+    text-decoration: none;
+}
+.menulist>li:hover
+{
+    background-color: yellow;
+    padding-left: 20px;
+    margin-left:10px;
+}
+ol
+{
+    margin-left: -25px;
+    list-style: none;
+}
+.contacts 
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 140px;
+    background-color: forestgreen;
+}
+.left
+{
+    float: left;
+    background-color: black;
+}
+.right
+{
+    float: left;
+    background-color: aqua;
+    width: 600px;
+}
+.picture 
+{
+    float: left;
+    height: 100px;
+    width: 130px;
+    background-color: chartreuse;
+}
+.fullname 
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    height: 60px;
+    width: 450px;
+    background-color: brown;
+}
+.content 
+{
+    padding: 10px;
+    text-align: center;
+	min-height: 220px;
+    clear: both;
+    background-color: lightcoral;
+}
+.partners 
+{
+    padding: 10px;
+    text-align: center;
+    height:25px;
+    margin-top: 5px;
+    background-color: gold;
+}
+.horizontalmenu 
+{
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+    clear: both;
+    background-color: lime;
+}
+.contextad
+{
+    padding: 15px;
+    width: 120px;
+    height: 170px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: deepskyblue;
+}
+.news 
+{
+    padding: 10px;
+    margin-top: 10px;
+    height: 130px;
+    background-color: orchid;
+}
+.copyright
+{
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    height: 40px;
+    background-color: tomato;
+}

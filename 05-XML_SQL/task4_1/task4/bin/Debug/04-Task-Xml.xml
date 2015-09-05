@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nouns>
+<noun rid="чоловічий рід" istota="неістота" vidmina="II відміна" lemma="алфавіт">алфавіт 
+  <form vidminok="називний" chislo="однина">алфавіт</form> 
+  <form vidminok="називний" chislo="множина">алфавіти</form> 
+  <form vidminok="родовий" chislo="однина">алфавіту</form> 
+  <form vidminok="родовий" chislo="множина">алфавітів</form> 
+  <form vidminok="давальний" chislo="однина">алфавітові, алфавіту</form> 
+  <form vidminok="давальний" chislo="множина">алфавітам</form> 
+  <form vidminok="знахідний" chislo="однина">алфавіт</form> 
+  <form vidminok="знахідний" chislo="множина">алфавіти</form> 
+  <form vidminok="орудний" chislo="однина">алфавітом</form> 
+  <form vidminok="орудний" chislo="множина">алфавітами</form> 
+  <form vidminok="місцевий" chislo="однина">на/у алфавіті</form> 
+  <form vidminok="місцевий" chislo="множина">на/у алфавітах</form> 
+  <form vidminok="кличний" chislo="однина">алфавіте</form> 
+  <form vidminok="кличний" chislo="множина">алфавіти</form> 
+  </noun>
+<noun rid="жіночий рід" istota="неістота" vidmina="I відміна" lemma="ламп">лампа 
+  <form vidminok="називний" chislo="однина">лампа</form> 
+  <form vidminok="називний" chislo="множина">лампи</form> 
+  <form vidminok="родовий" chislo="однина">лампи</form> 
+  <form vidminok="родовий" chislo="множина">ламп</form> 
+  <form vidminok="давальний" chislo="однина">лампі</form> 
+  <form vidminok="давальний" chislo="множина">лампам</form> 
+  <form vidminok="знахідний" chislo="однина">лампу</form> 
+  <form vidminok="знахідний" chislo="множина">лампи</form> 
+  <form vidminok="орудний" chislo="однина">лампою</form> 
+  <form vidminok="орудний" chislo="множина">лампами</form> 
+  <form vidminok="місцевий" chislo="однина">на/у лампі</form> 
+  <form vidminok="місцевий" chislo="множина">на/у лампах</form> 
+  <form vidminok="кличний" chislo="однина">лампо</form> 
+  <form vidminok="кличний" chislo="множина">лампи</form> 
+</noun>  
+<noun rid="жіночий рід" istota="неістота" vidmina="I відміна" lemma="лампоч">лампочка 
+  <form vidminok="називний" chislo="однина">лампочка</form> 
+  <form vidminok="називний" chislo="множина">лампочки</form> 
+  <form vidminok="родовий" chislo="однина">лампочки</form> 
+  <form vidminok="родовий" chislo="множина">лампочок</form> 
+  <form vidminok="давальний" chislo="однина">лампочці</form> 
+  <form vidminok="давальний" chislo="множина">лампочкам</form> 
+  <form vidminok="знахідний" chislo="однина">лампочку</form> 
+  <form vidminok="знахідний" chislo="множина">лампочки</form> 
+  <form vidminok="орудний" chislo="однина">лампочкою</form> 
+  <form vidminok="орудний" chislo="множина">лампочками</form> 
+  <form vidminok="місцевий" chislo="однина">лампочці</form> 
+  <form vidminok="місцевий" chislo="множина">лампочках</form> 
+  <form vidminok="кличний" chislo="однина">лампочко</form> 
+  <form vidminok="кличний" chislo="множина">лампочки</form> 
+</noun>  
+<noun rid="чоловічий рід" istota="неістота" vidmina="II відміна" lemma="ландшафт">ландшафт 
+  <form vidminok="називний" chislo="однина">ландшафт</form> 
+  <form vidminok="називний" chislo="множина">ландшафти</form> 
+  <form vidminok="родовий" chislo="однина">ландшафту</form> 
+  <form vidminok="родовий" chislo="множина">ландшафтів</form> 
+  <form vidminok="давальний" chislo="однина">ландшафтові, ландшафту</form> 
+  <form vidminok="давальний" chislo="множина">ландшафтам</form> 
+  <form vidminok="знахідний" chislo="однина">ландшафт</form> 
+  <form vidminok="знахідний" chislo="множина">ландшафти</form> 
+  <form vidminok="орудний" chislo="однина">ландшафтом</form> 
+  <form vidminok="орудний" chislo="множина">ландшафтами</form> 
+  <form vidminok="місцевий" chislo="однина">ландшафті</form> 
+  <form vidminok="місцевий" chislo="множина">ландшафтах</form> 
+  <form vidminok="кличний" chislo="однина">ландшафте</form> 
+  <form vidminok="кличний" chislo="множина">ландшафти</form> 
+</noun>  
+</nouns>

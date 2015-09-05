@@ -1,0 +1,7 @@
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Problems_2\Problems_2\bin\Debug\Problems_2.exe
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Problems_2\Problems_2\bin\Debug\Problems_2.pdb
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Problems_2\Problems_2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Problems_2\Problems_2\obj\x86\Debug\Problems_2.exe
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Problems_2\Problems_2\obj\x86\Debug\Problems_2.pdb
+D:\Study\EPAM\courses\projects\C#_lecture_3\Problems_2\Problems_2\obj\x86\Debug\Problems_2.exe
+D:\Study\EPAM\courses\projects\C#_lecture_3\Problems_2\Problems_2\obj\x86\Debug\Problems_2.pdb

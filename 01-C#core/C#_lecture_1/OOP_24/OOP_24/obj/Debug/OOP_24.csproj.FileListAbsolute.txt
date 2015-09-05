@@ -1,0 +1,10 @@
+d:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_24\OOP_24\obj\Debug\OOP_24.exe
+d:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_24\OOP_24\obj\Debug\OOP_24.pdb
+d:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_24\OOP_24\bin\Debug\OOP_24.exe
+d:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_24\OOP_24\bin\Debug\OOP_24.pdb
+d:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_24\OOP_24\obj\Debug\ResolveAssemblyReference.cache
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_24\OOP_24\obj\Debug\OOP_24.exe
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_24\OOP_24\obj\Debug\OOP_24.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_24\OOP_24\bin\Debug\OOP_24.exe
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_24\OOP_24\bin\Debug\OOP_24.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_24\OOP_24\obj\Debug\ResolveAssemblyReference.cache

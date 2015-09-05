@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MyBlog.WebUI.Models.Users>
+@using MyBlog.WebUI.Helpers
+@using MyBlog.WebUI.Models;
+@{
+    ViewBag.Title = "Управление пользователями";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section right_sidebar_style{
+    <link href="@Url.Content("~/Areas/Admin/Content/Styles/AdminIndex.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/Styles/Pages.css")" rel="stylesheet" type="text/css" />
+}
+@section single_column{
+
+<table class="list">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>       
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+        @if (User.Identity.Name != item.UserName)
+        {
+            @Html.ActionLink("Редактировать", "EditUser", new { id = item.UserId }, new { @class = "link" })
+            @Html.ActionLink("Подробнее", "UserDetails", new { id = item.UserId }, new { @class = "link" }) 
+            if (item.Active) 
+            { 
+                @Html.ActionLink("Заблокировать", "LockUnlock", new { id = item.UserId }, new { @class = "link" })
+            }
+            else
+            {
+                @Html.ActionLink("Разблокировать", "LockUnlock", new { id = item.UserId }, new { @class = "link" })
+            }
+            @Html.ActionLink("Удалить", "DeleteUser", new { id = item.UserId }, new { @class = "link" })
+        }
+        else
+        {
+            <span>Текущий пользователь</span>
+        }
+        </td>
+    </tr>
+}
+
+</table>
+<div class="page-numbers">
+    @Html.CreatePageLinks(ViewBag.pageInfo as PageInfo, x => Url.Action("UsersManage", new { page = x }))
+</div>
+<p>
+    @Html.ActionLink("Назад к списку статей", "Index","Home", null, new { @class = "link" })
+</p>
+}

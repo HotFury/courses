@@ -1,0 +1,12 @@
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\obj\Debug\MyBlog.Domain.CodeFirst.csprojResolveAssemblyReference.cache
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\bin\Debug\MyBlog.Domain.CodeFirst.dll.config
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\bin\Debug\MyBlog.Domain.CodeFirst.dll
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\bin\Debug\MyBlog.Domain.CodeFirst.pdb
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\bin\Debug\EntityFramework.dll
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\bin\Debug\EntityFramework.xml
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\obj\Debug\MyBlog.Domain.CodeFirst.dll
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\obj\Debug\MyBlog.Domain.CodeFirst.pdb
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\obj\Debug\MyBlog.Domain.CodeFirst.Migrations.ChangeDb.resources
+D:\Study\EPAM\courses\ASP.NET MVC\task3\MyBlog\MyBlog.Domain.CodeFirst\obj\Debug\MyBlog.Domain.CodeFirst.csproj.GenerateResource.Cache

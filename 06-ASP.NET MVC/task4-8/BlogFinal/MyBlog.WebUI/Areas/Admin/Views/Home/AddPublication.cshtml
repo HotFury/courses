@@ -1,0 +1,46 @@
+﻿@model MyBlog.WebUI.Areas.Admin.Models.NewPublicationViewModel
+@{
+    ViewBag.Title = "Новая публикация";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section main_body_style{
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="@Url.Content("~/Areas/Admin/Content/Styles/AddPublicatioin.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/Styles/Validation.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Areas/Admin/Content/Styles/AdminIndex.css")" rel="stylesheet" type="text/css" />
+
+
+
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/Scripts/cheeaun-mooeditable/Assets/MooEditable/MooEditable.css")">
+<script type="text/javascript" src="@Url.Content("~/Scripts/cheeaun-mooeditable/Assets/mootools.js")"></script>
+<script type="text/javascript" src="@Url.Content("~/Scripts/cheeaun-mooeditable/Source/MooEditable/MooEditable.js")"></script>
+<script type="text/javascript" src="@Url.Content("~/Scripts/Editable.js")"></script>
+
+}
+@section single_column{
+    @using (Html.BeginForm("AddPublication", "Home"))
+    { 
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(x => x.Id)
+    <div class="editor-field">
+        @Html.TextAreaFor(item => item.Title, new { placeholder = "Название статьи", autofocus = "" })
+        @Html.ValidationMessageFor(item => item.Title)
+    </div>
+    <div class="editor-field">
+        @Html.TextAreaFor(item => item.ArticleText, new { id = "textarea-1" })
+        @Html.ValidationMessageFor(item => item.ArticleText)
+    </div>
+    <div class="tags-list">
+       @Html.ListBox("SelectedTags", Model.Tags as IEnumerable<SelectListItem>)
+
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(item => item.NewTags, new {placeholder = "Введите новые теги через пробел" })
+        @Html.ValidationMessageFor(item => item.NewTags)
+    </div>
+    <input class="send" type="submit" value="Сохранить">
+    @Html.ActionLink("Назад к списку", "Index", null, new { @class = "link" })
+    
+    }
+}

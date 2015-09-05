@@ -1,0 +1,12 @@
+﻿.field-validation-error{
+    color: red;
+    font-size: 15px;
+    display: block;
+}
+.editor-field{
+    margin: 10px;
+    margin-top:0px;
+}
+.validation-summary-errors{
+    color: red;
+}

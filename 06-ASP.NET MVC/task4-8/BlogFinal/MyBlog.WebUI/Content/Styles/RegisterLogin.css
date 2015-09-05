@@ -1,0 +1,14 @@
+﻿ol{
+    list-style: none;
+}
+.form-field{
+    display: block;
+    margin-bottom: 5px;
+    width: 300px;
+}
+#login{
+    margin-left: 40px;
+}
+input{
+    padding: 5px;
+}

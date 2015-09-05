@@ -1,0 +1,6 @@
+D:\Study\EPAM\courses\projects\tale\tale\bin\Debug\tale.exe.config
+D:\Study\EPAM\courses\projects\tale\tale\bin\Debug\tale.exe
+D:\Study\EPAM\courses\projects\tale\tale\bin\Debug\tale.pdb
+D:\Study\EPAM\courses\projects\tale\tale\obj\Debug\tale.csprojResolveAssemblyReference.cache
+D:\Study\EPAM\courses\projects\tale\tale\obj\Debug\tale.exe
+D:\Study\EPAM\courses\projects\tale\tale\obj\Debug\tale.pdb

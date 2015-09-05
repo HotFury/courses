@@ -1,0 +1,5 @@
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\DynamicType3\DynamicType3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\DynamicType3\DynamicType3\bin\Debug\DynamicType3.exe
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\DynamicType3\DynamicType3\bin\Debug\DynamicType3.pdb
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\DynamicType3\DynamicType3\obj\x86\Debug\DynamicType3.exe
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\DynamicType3\DynamicType3\obj\x86\Debug\DynamicType3.pdb

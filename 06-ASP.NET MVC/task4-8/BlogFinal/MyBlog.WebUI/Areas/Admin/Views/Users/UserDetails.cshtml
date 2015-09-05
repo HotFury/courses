@@ -1,0 +1,40 @@
+﻿@model MyBlog.WebUI.Models.Users
+
+@{
+    ViewBag.Title = "Информация о пользователе";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section right_sidebar_style{
+    <link href="@Url.Content("~/Areas/Admin/Content/Styles/AdminIndex.css")" rel="stylesheet" type="text/css" />
+}
+@section single_column{
+    <h2>Информация о пользователе</h2>
+    <fieldset>
+        <legend>Users</legend>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.UserName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.UserName)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.Email)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Email)
+        </div>
+
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.Active)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Active)
+        </div>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Редактировать", "EditUser", new { id = Model.UserId }, new { @class = "link" }) |
+        @Html.ActionLink("Назад к списку", "UsersManage", null, new { @class = "link" })
+    </p>
+    }

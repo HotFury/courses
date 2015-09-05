@@ -1,0 +1,17 @@
+﻿.page-numbers{
+    margin: 10px;
+}
+.page-link{
+    text-decoration:none;
+    padding: 5px;
+    color: black;
+}
+.selected-page{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #A6A0AF;
+    cursor: default;
+}
+.page-link:hover{
+    text-decoration:underline;
+}

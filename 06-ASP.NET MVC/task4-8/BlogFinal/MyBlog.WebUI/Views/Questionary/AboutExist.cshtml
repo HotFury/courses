@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Завершение анкетирования";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section single_column{
+    <h2>@ViewBag.Message</h2>
+    <h3>Вы уже проходили наше анкетирование</h3>
+    @Html.ActionLink("На главную", "Index", "Home")
+}

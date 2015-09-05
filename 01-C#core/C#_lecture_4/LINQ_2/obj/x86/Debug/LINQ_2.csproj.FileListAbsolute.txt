@@ -1,0 +1,10 @@
+D:\projects\Проекты С#\LINQ_2\bin\Debug\LINQ_2.exe
+D:\projects\Проекты С#\LINQ_2\bin\Debug\LINQ_2.pdb
+D:\projects\Проекты С#\LINQ_2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\projects\Проекты С#\LINQ_2\obj\x86\Debug\LINQ_2.exe
+D:\projects\Проекты С#\LINQ_2\obj\x86\Debug\LINQ_2.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\LINQ_2\obj\x86\Debug\LINQ_2.exe
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\LINQ_2\obj\x86\Debug\LINQ_2.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\LINQ_2\bin\Debug\LINQ_2.exe
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\LINQ_2\bin\Debug\LINQ_2.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\LINQ_2\obj\x86\Debug\ResolveAssemblyReference.cache

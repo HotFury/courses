@@ -1,0 +1,47 @@
+﻿#slider
+{
+    padding: 20px;
+}
+#prev{
+    float: left;
+    width: 0px;
+    height : 300px;
+    overflow: hidden;
+}
+#curr{
+    float: left;
+    width: 500px;
+    height : 300px;
+    overflow: hidden;
+}
+#next{
+    float: left;
+    width: 0px;
+    height : 300px;
+    overflow: hidden;
+}
+#nextbutton{
+    padding-top: 140px;
+    float: left;
+    background-color: aqua;
+    width: 30px;
+    height : 160px;
+    cursor: pointer;
+	font-size: 25px;
+}
+#prevbutton{
+    padding-top: 140px;
+    float:left;
+    background-color: aqua;
+    height : 160px;
+    width: 30px;
+    cursor: pointer;
+	font-size: 25px;
+}
+.border{
+    background-color: aqua;
+    clear: both;
+    padding-left: 520px;
+    width: 40px;
+    height: 20px;
+}

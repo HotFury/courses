@@ -1,0 +1,115 @@
+﻿body {
+    margin: 20px;
+    background-color: #CDC7C7;
+}
+.head-link{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width: 97%;
+    padding: 1.5%;
+    text-align: left;
+    border-radius: 10px;
+    background-color: darkviolet;
+    
+}
+#site-body{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 10%;
+}
+.main-body{
+    padding: 1%;
+    width: 78%;
+    float: left;
+}
+.right-sidebar{
+    width: 20%;
+    float: left;
+
+}
+#goToTop {
+    background-color: yellowgreen;
+    border-radius: 5px;
+    width: 10%;
+    padding-top: 10px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    opacity: 0.5;
+    cursor: pointer;
+    display: none;
+}
+.copyright{
+    float: right;
+    width: 10%;
+    
+}
+#goToTop:hover{
+    opacity: 1;
+    
+}
+footer{
+    overflow: hidden;
+   
+}
+.logo{
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+.headertext{
+    display: block;
+    float: left;
+}
+.arrow{
+    margin-left: -10px;
+}
+#login-part{
+    position: absolute;
+    margin-left: 77%;
+    margin-top: -85px;
+}
+#registerLink{
+    color: black;
+    text-decoration: none;
+}
+.regList{
+    list-style: none;
+}
+.regButton{
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #DEDBDB;
+    border-radius: 5px;
+}
+.username{
+    color: #DEDBDB;
+    font-size: 25px;
+    font-family: Verdana;
+    text-decoration: underline;
+}
+#logout-part{
+    float: right;
+    margin-top: -77px;
+    margin-right: 10px;
+}
+.logOffButton
+{
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #DEDBDB;
+    border-radius: 5px;
+}
+#logoutForm
+{
+    display: inline;
+}

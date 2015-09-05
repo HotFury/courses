@@ -1,0 +1,69 @@
+﻿
+@model MyBlog.WebUI.Models.CodeFirst.PublicationPreviewViewModel
+@using MyBlog.WebUI.Helpers
+@{
+    ViewBag.Title = "Публикации";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section right_sidebar_style{
+    <link href="@Url.Content("~/Content/Styles/Menu.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/Styles/Article.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/Styles/Index.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/Styles/Pages.css")" rel="stylesheet" type="text/css" />
+}
+@section main_body{
+<div class="main-body">
+    <h2>Лента статей</h2>
+        @foreach (var curArticle in Model.Articles)
+        { 
+            if (!curArticle.Deleted) 
+            { 
+                <div class ="title"><h2>@curArticle.ArticleTitle</h2></div>
+                <div class="preview">
+                    @Model.GetPreview(curArticle)
+                </div>
+                    <div>
+                        @Html.ActionLink("Подробнее", "ReadMore", new { id = curArticle.Id }, new { @class = "button" })
+                    </div>
+                
+            }
+        }
+    <div class="page-numbers">
+        @Html.CreatePageLinks(Model.pageInfo, x => Url.Action("Index", new { page = x }))
+    </div>
+
+    </div>
+}
+@section right_sidebar{
+<div class="right-sidebar">
+    <div class="menu">
+        Меню
+        <ol class="menulist">
+            <li class="menucurlink">
+                <a class="menutext" href="/Home/Index">Главная</a>
+            </li>
+            <li class="menuitem">
+                <a class="menutext" href="/Feedback/">Отзывы</a>
+            </li>
+            <li class="menuitem">
+                <a class="menutext" href="/Questionary/">Анкета</a>
+            </li>
+            <li class="menuitem">
+                <a class="menutext" href="/Admin/Home/Index">Кабинет администратора</a>
+            </li>
+        </ol>
+    </div>
+    <div class="vote-block">
+        <p class="vote-title">Оцените блог:</p>
+        @using (@Html.BeginForm("", "")) 
+        { 
+            @Html.CreateList(Model.VoteRadio, "answers", true)
+            <input class="vote-submit" type="submit" value="Подтвердить" />
+        }
+    </div>
+</div>
+    
+}
+
+
+

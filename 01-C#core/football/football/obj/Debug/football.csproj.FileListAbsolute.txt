@@ -1,0 +1,6 @@
+D:\Study\EPAM\courses\projects\football\football\bin\Debug\football.exe.config
+D:\Study\EPAM\courses\projects\football\football\bin\Debug\football.exe
+D:\Study\EPAM\courses\projects\football\football\bin\Debug\football.pdb
+D:\Study\EPAM\courses\projects\football\football\obj\Debug\football.csprojResolveAssemblyReference.cache
+D:\Study\EPAM\courses\projects\football\football\obj\Debug\football.exe
+D:\Study\EPAM\courses\projects\football\football\obj\Debug\football.pdb

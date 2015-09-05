@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{992BE3F2-6B4C-41AE-AB60-A2E41DCA71B6}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyBlog.WebUI</RootNamespace>
+    <AssemblyName>MyBlog.WebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.30506.0\lib\net40\WebMatrix.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.30506.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.30506.0\lib\net40\WebMatrix.WebData.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net45-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.OData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.4.0.30506\lib\net40\System.Web.Http.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UsersController.cs" />
+    <Compile Include="Areas\Admin\Models\Annotations\NewPublicationViewModelAnnotation.cs" />
+    <Compile Include="Areas\Admin\Models\NewPublicationViewModel.cs" />
+    <Compile Include="Areas\Admin\Validation\ArticleNotEmpty.cs" />
+    <Compile Include="Areas\Admin\Validation\MustHaveTags.cs" />
+    <Compile Include="Areas\Admin\Validation\NoScripts.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\FeedbackController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\QuestionaryController.cs" />
+    <Compile Include="Areas\Admin\Filters\ForAdmin.cs" />
+    <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\ListHelpers.cs" />
+    <Compile Include="Helpers\PageHelper.cs" />
+    <Compile Include="Migrations\201509032016259_UsersDbUpdate.cs" />
+    <Compile Include="Migrations\201509032016259_UsersDbUpdate.Designer.cs">
+      <DependentUpon>201509032016259_UsersDbUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\BuildRadioOrCheck.cs" />
+    <Compile Include="Models\CodeFirst\PublicationModelView.cs" />
+    <Compile Include="Models\CodeFirst\PublicationPreviewViewModel.cs" />
+    <Compile Include="Models\DbFirst\AboutSelfFormViewModel.cs" />
+    <Compile Include="Models\DbFirst\FeedbacksShowViewModel.cs" />
+    <Compile Include="Models\MyBlogRepository.cs" />
+    <Compile Include="Models\PageInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Content\Styles\AddPublicatioin.css" />
+    <Content Include="Areas\Admin\Content\Styles\AdminIndex.css" />
+    <Content Include="Content\Styles\Article.css" />
+    <Content Include="Content\Styles\Feedback.css" />
+    <Content Include="Content\Styles\Index.css" />
+    <Content Include="Content\Styles\Layout.css" />
+    <Content Include="Content\Styles\Menu.css" />
+    <Content Include="Content\Styles\Pages.css" />
+    <Content Include="Content\Styles\Questionary.css" />
+    <Content Include="Content\Styles\RegisterLogin.css" />
+    <Content Include="Content\Styles\Validation.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Areas\Admin\Views\Home\AddPublication.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Drop.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\RecycleBin.cshtml" />
+    <Content Include="Areas\Admin\Views\Web.config" />
+    <Content Include="Areas\Admin\Views\Users\UsersManage.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\DeleteUser.cshtml" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\README.md" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\license.md" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\MooEditable\MooEditable.Extras.md" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\MooEditable\MooEditable.Group.md" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\MooEditable\MooEditable.md" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\MooEditable\MooEditable.UI.ButtonOverlay.md" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\MooEditable\MooEditable.UI.MenuList.md" />
+    <Content Include="Scripts\cheeaun-mooeditable\LICENSE" />
+    <Content Include="Scripts\cheeaun-mooeditable\package.yml" />
+    <Content Include="Scripts\cheeaun-mooeditable\README.md" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\Locale\README.md" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\scripts.json" />
+    <Content Include="Areas\Admin\Views\Users\EditUser.cshtml" />
+    <Content Include="Areas\Admin\Views\Users\UserDetails.cshtml" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Images\arrow.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Editable.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\images\mooeditable-extras-toolbarbuttons-tango.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\images\mooeditable-toolbarbuttons-silk.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\images\mooeditable-toolbarbuttons-tango.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.Charmap.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.Extras.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.Flash.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.Forecolor.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.Image.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.Pagebreak.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.SilkTheme.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.Smiley.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\MooEditable.Table.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\character.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\flash.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\hr.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\pagebreak.gif" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\pagebreak.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\removeformat.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-add.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-coladd.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-coldelete.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-coledit.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-colspan.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-colsplit.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-edit.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-rowadd.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-rowdelete.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-rowedit.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-rowspan.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Other\table-rowsplit.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\anchor.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\bold.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\createlink.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\indent.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\insertorderedlist.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\insertunorderedlist.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\italic.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\justifycenter.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\justifyfull.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\justifyleft.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\justifyright.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\outdent.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\palette.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\picture.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\redo.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\strikethrough.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\toggleview.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\underline.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\undo.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Silk\unlink.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Smiley\angryface.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Smiley\blush.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Smiley\gasp.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Smiley\grin.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Smiley\halo.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Smiley\lipsaresealed.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Smiley\smile.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Smiley\undecided.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Smiley\wink.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\bold.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\createlink.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\indent.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\insertorderedlist.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\insertunorderedlist.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\italic.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\justifycenter.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\justifyfull.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\justifyleft.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\justifyright.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\outdent.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\redo.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\strikethrough.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\toggleview.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\underline.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\undo.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\unlink.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\MooEditable\Tango\urlimage.png" />
+    <Content Include="Scripts\cheeaun-mooeditable\Assets\mootools.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\assets\mootools-more.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\assets\mootools.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.ajax-submit.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.attach-detach.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Charmap.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.CleanPaste.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.custom-toolbarbuttons.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.ExtendedLinksDialog.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Extras.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Extras.SilkTheme.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Flash.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Forecolor.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Group.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Image.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Pagebreak.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.selection-api.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Smiley.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.Table.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Demos\MooEditable\MooEditable.UI.ButtonOverlay.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\assets\ca.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\assets\docs.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\assets\docs.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\assets\mootools.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\assets\prettify.css" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\assets\prettify.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\assets\showdown.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Docs\index.html" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\Locale\Locale.de-DE.MooEditable.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\Locale\Locale.en-US.MooEditable.example.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\Locale\Locale.fr-FR.MooEditable.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\Locale\Locale.it-IT.MooEditable.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\Locale\Locale.nl.MooEditable.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\Locale\Locale.pt-BR.MooEditable.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\Locale\Locale.zh_CN.MooEditable.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.Charmap.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.CleanPaste.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.Extras.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.Flash.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.Forecolor.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.Group.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.Image.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.Pagebreak.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.Smiley.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.Table.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.UI.ButtonOverlay.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.UI.ExtendedLinksDialog.js" />
+    <Content Include="Scripts\cheeaun-mooeditable\Source\MooEditable\MooEditable.UI.MenuList.js" />
+    <Content Include="Scripts\Editable.js" />
+    <Content Include="Scripts\goToTop.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout-2.2.0.debug.js" />
+    <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\_RemoveExternalLoginsPartial.cshtml" />
+    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Manage.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Feedback\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Publication.cshtml" />
+    <Content Include="Views\Questionary\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Questionary\AddAbout.cshtml" />
+    <Content Include="Views\Questionary\AboutExist.cshtml" />
+    <Content Include="Views\Account\UserIsLock.cshtml" />
+    <Content Include="Views\Home\SearchByTag.cshtml" />
+    <Content Include="Views\Shared\EditSuccesfull.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyBlog.Domain.CodeFirst\MyBlog.Domain.CodeFirst.csproj">
+      <Project>{6f69a038-0d99-4385-89b6-c312d0da7d32}</Project>
+      <Name>MyBlog.Domain.CodeFirst</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201509032016259_UsersDbUpdate.resx">
+      <DependentUpon>201509032016259_UsersDbUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3892</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3892/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

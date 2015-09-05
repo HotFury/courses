@@ -1,0 +1,6 @@
+D:\Study\EPAM\courses\projects\linqTest\linqTest\bin\Debug\linqTest.exe.config
+D:\Study\EPAM\courses\projects\linqTest\linqTest\bin\Debug\linqTest.exe
+D:\Study\EPAM\courses\projects\linqTest\linqTest\bin\Debug\linqTest.pdb
+D:\Study\EPAM\courses\projects\linqTest\linqTest\obj\Debug\linqTest.csprojResolveAssemblyReference.cache
+D:\Study\EPAM\courses\projects\linqTest\linqTest\obj\Debug\linqTest.exe
+D:\Study\EPAM\courses\projects\linqTest\linqTest\obj\Debug\linqTest.pdb

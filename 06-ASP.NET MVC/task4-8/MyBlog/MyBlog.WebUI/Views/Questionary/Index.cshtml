@@ -1,0 +1,38 @@
+﻿@model MyBlog.WebUI.Models.DbFirst.AboutSelfFormViewModel
+@{
+    ViewBag.Title = "Анкета";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section questionary_style{
+    <link href="@Url.Content("~/Content/Styles/Questionary.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/Styles/Validation.css")" rel="stylesheet" type="text/css" />
+}
+
+@section single_column{
+    <div class="questionary">
+    <h2>Анкета</h2>
+    @using MyBlog.WebUI.Helpers
+    @using (Html.BeginForm("AddAbout", "Questionary"))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <div class="user">
+            Вы: @Html.DropDownListFor(model => model.AboutSelf.UserId, ViewBag.List as IEnumerable<SelectListItem>)
+        </div>
+            <span>Имя: </span>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.AboutSelf.Name, new { placeholder = "Введите имя" })
+                @Html.ValidationMessageFor(model => model.AboutSelf.Name)
+            </div>
+        <span> Пол:</span>
+        <div class="editor-field">
+            @Html.CreateList(Model.GenderRadio, "answers", true)
+        </div>
+        <span> Любимые хобби:</span>
+        @Html.CreateList(Model.HobbiesChek, "answers", true)
+        <span>О себе:</span> <br />
+        @Html.TextAreaFor(model => model.AboutSelf.About, new { placeholder = "Расскажите о себе", @class = "aboutSelf" })
+        <br /><input type="submit" value="Завершить" />
+    }
+    </div>
+}

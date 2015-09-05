@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyBlogModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AboutSelf">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Sex" Type="nchar" MaxLength="20" Nullable="false" />
+    <Property Name="Hobbies" Type="nvarchar" MaxLength="100" />
+    <Property Name="About" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Feedbacks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="FeedbackText" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DateTime" Type="nchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nick" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__AboutSelf__UserI__21B6055D">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AboutSelf" Type="Self.AboutSelf" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AboutSelf">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Feedbacks__UserI__22AA2996">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Feedbacks" Type="Self.Feedbacks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feedbacks">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MyBlogModelStoreContainer">
+    <EntitySet Name="AboutSelf" EntityType="Self.AboutSelf" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Feedbacks" EntityType="Self.Feedbacks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__AboutSelf__UserI__21B6055D" Association="Self.FK__AboutSelf__UserI__21B6055D">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="AboutSelf" EntitySet="AboutSelf" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Feedbacks__UserI__22AA2996" Association="Self.FK__Feedbacks__UserI__22AA2996">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Feedbacks" EntitySet="Feedbacks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

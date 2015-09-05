@@ -1,0 +1,14 @@
+d:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 7\Modul_7\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\Multicast_delegate_1.exe
+d:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 7\Modul_7\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\Multicast_delegate_1.pdb
+d:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 7\Modul_7\Multicast_delegate_1\Multicast_delegate_1\bin\Debug\Multicast_delegate_1.exe
+d:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 7\Modul_7\Multicast_delegate_1\Multicast_delegate_1\bin\Debug\Multicast_delegate_1.pdb
+d:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 7\Modul_7\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\ResolveAssemblyReference.cache
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\Multicast_delegate_1.exe
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\Multicast_delegate_1.pdb
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Multicast_delegate_1\Multicast_delegate_1\bin\Debug\Multicast_delegate_1.exe
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Multicast_delegate_1\Multicast_delegate_1\bin\Debug\Multicast_delegate_1.pdb
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\ResolveAssemblyReference.cache
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\Multicast_delegate_1.exe
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\Multicast_delegate_1.pdb
+D:\Study\EPAM\courses\projects\C#_lecture_3\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\Multicast_delegate_1.exe
+D:\Study\EPAM\courses\projects\C#_lecture_3\Multicast_delegate_1\Multicast_delegate_1\obj\Debug\Multicast_delegate_1.pdb

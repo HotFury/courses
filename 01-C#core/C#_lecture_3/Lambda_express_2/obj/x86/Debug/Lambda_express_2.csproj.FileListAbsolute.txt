@@ -1,0 +1,12 @@
+D:\projects\Проекты С#\Lambda_express_2\bin\Debug\Lambda_express_2.exe
+D:\projects\Проекты С#\Lambda_express_2\bin\Debug\Lambda_express_2.pdb
+D:\projects\Проекты С#\Lambda_express_2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\projects\Проекты С#\Lambda_express_2\obj\x86\Debug\Lambda_express_2.exe
+D:\projects\Проекты С#\Lambda_express_2\obj\x86\Debug\Lambda_express_2.pdb
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Lambda_express_2\obj\x86\Debug\Lambda_express_2.exe
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Lambda_express_2\obj\x86\Debug\Lambda_express_2.pdb
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Lambda_express_2\bin\Debug\Lambda_express_2.exe
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Lambda_express_2\bin\Debug\Lambda_express_2.pdb
+d:\Учебные дисциплины\EPAM\13_05 делегаты анонимные методы ламбда выраж события\Lambda_express_2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Study\EPAM\courses\projects\C#_lecture_3\Lambda_express_2\obj\x86\Debug\Lambda_express_2.exe
+D:\Study\EPAM\courses\projects\C#_lecture_3\Lambda_express_2\obj\x86\Debug\Lambda_express_2.pdb

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="@Url.Content("~/Content/Styles/Layout.css")" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="@Url.Content("~/Images/favicon.png")" />
+
+    <script src="@Url.Content("~/Scripts/goToTop.js")" type="text/javascript"></script>
+    @RenderSection("main_body_style", false)
+    @RenderSection("right_sidebar_style", false)
+    @RenderSection("questionary_style", false)
+    
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <a class="head-link" href="/Home/Index"><header><img class="logo" alt="unavailable" src="@Url.Content("~/Images/logo.png")"><h2 class="headerText">HotFury.com</h2></header></a>
+    <div id="site-body">
+            @RenderSection("main_body", false)
+            @RenderSection("right_sidebar", false)
+            @RenderSection("single_column", false)
+    </div>
+    <footer>
+        
+        <div class="goToTop" onclick="goToTop()">
+            <img class="arrow" alt="unavailable" src="@Url.Content("~/Images/arrow.png")">Наверх
+        </div>
+        <div class="copyright">
+            © Alexandr Kononov 2015
+        </div>
+
+    </footer>
+</body>
+</html>

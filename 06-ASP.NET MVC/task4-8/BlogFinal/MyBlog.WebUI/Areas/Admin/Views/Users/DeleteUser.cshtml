@@ -1,0 +1,41 @@
+﻿@model MyBlog.WebUI.Models.Users
+
+@{
+    ViewBag.Title = "Удалить пользователя";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section right_sidebar_style{
+    <link href="@Url.Content("~/Areas/Admin/Content/Styles/AdminIndex.css")" rel="stylesheet" type="text/css" />
+}
+@section single_column{
+    <h2>Удалить пользователя</h2>
+
+    <h3>Вы уверены, что хотите безвозвратно удалить этого пользователя?</h3>
+    <fieldset>
+        <legend>Пользователь</legend>
+        <div>
+            <span class="display-label">
+                @Html.DisplayNameFor(model => model.UserName):
+            </span>
+            <span class="display-field">
+                @Html.DisplayFor(model => model.UserName)
+            </span>
+        </div>
+        <div>
+            <span class="display-label">
+                @Html.DisplayNameFor(model => model.Email):
+            </span>
+            <span class="display-field">
+                @Html.DisplayFor(model => model.Email)
+            </span>
+        </div>
+    </fieldset>
+    @using (Html.BeginForm("DropUser", "Users")) {
+        @Html.AntiForgeryToken()
+        <p>
+            @Html.HiddenFor(x => x.UserId)
+            <input type="submit" value="Удалить" /> |
+            @Html.ActionLink("Назад к списку", "UsersManage", null, new { @class = "link" })
+        </p>
+    }
+}

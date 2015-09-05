@@ -1,0 +1,15 @@
+﻿.answers{
+    list-style: none;
+}
+.wrong{
+    color: red;
+}
+.right{
+    color:green;
+}
+span{
+    margin:5px;
+}
+#exit{
+    margin: 5px;
+}

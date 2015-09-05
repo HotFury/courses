@@ -1,0 +1,5 @@
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\ExtensionMethods_7\ExtensionMethods_7\bin\Debug\ExtensionMethods_7.exe
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\ExtensionMethods_7\ExtensionMethods_7\bin\Debug\ExtensionMethods_7.pdb
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\ExtensionMethods_7\ExtensionMethods_7\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\ExtensionMethods_7\ExtensionMethods_7\obj\x86\Debug\ExtensionMethods_7.exe
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 5 11 ноября\ExtensionMethods_7\ExtensionMethods_7\obj\x86\Debug\ExtensionMethods_7.pdb

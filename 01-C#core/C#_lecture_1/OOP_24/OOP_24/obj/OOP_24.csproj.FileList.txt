@@ -1,0 +1,5 @@
+bin\Debug\OOP_24.exe
+bin\Debug\OOP_24.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\OOP_24.exe
+obj\Debug\OOP_24.pdb

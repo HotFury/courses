@@ -1,0 +1,24 @@
+﻿@model MyBlog.Domain.CodeFirst.PublicationEntities.Article
+
+@{
+    ViewBag.Title = Model.ArticleTitle;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section right_sidebar_style{
+    <link href="@Url.Content("~/Areas/Admin/Content/Styles/AdminIndex.css")" rel="stylesheet" type="text/css" />
+}
+@section single_column{
+<h2>@Model.ArticleTitle</h2>
+
+<fieldset>
+    <legend>Текст статьи</legend>
+
+    <div class="display-field">
+        @Html.Raw(Model.ArticleText)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Редактировать", "Edit", new { id = Model.Id }, new { @class = "link" }) |
+    @Html.ActionLink("Назад к списку", "Index", null, new { @class = "link" })
+</p>
+    }

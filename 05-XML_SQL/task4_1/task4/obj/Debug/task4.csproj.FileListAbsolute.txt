@@ -1,0 +1,6 @@
+D:\Study\EPAM\courses\XML\task4\task4\bin\Debug\task4.exe.config
+D:\Study\EPAM\courses\XML\task4\task4\obj\Debug\task4.csprojResolveAssemblyReference.cache
+D:\Study\EPAM\courses\XML\task4\task4\bin\Debug\task4.exe
+D:\Study\EPAM\courses\XML\task4\task4\bin\Debug\task4.pdb
+D:\Study\EPAM\courses\XML\task4\task4\obj\Debug\task4.exe
+D:\Study\EPAM\courses\XML\task4\task4\obj\Debug\task4.pdb

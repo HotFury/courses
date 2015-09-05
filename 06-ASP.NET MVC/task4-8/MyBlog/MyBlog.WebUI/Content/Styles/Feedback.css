@@ -1,0 +1,53 @@
+﻿.main-body{
+    width: 58%;
+}
+.right-sidebar{
+    padding-top: 20px;
+    width: 40%;
+}
+#NewFeedback_FeedbackText{
+
+    width: 90%;
+    height: 100px;
+    resize: none;
+}
+
+.btn-default{
+    margin-left: 10px;
+}
+.feedback-text{
+    display: block;
+    clear: both;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.date{
+    display: block;
+    
+    margin-right: 15px; 
+    float: right;
+}
+.edit_delete_save_Link {
+    color: #4682b4;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    float: left;
+    
+}
+.edit_delete_save_Link :hover {
+    color: #0000ff;
+}
+
+.nick {
+    display: block;
+    clear: both;
+}
+#EditFeedbackText{
+    margin-left: 10px;
+    width: 95%;
+    height: 100px;
+    resize: none;
+}

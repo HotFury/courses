@@ -1,0 +1,27 @@
+﻿    #textarea-1 {
+        width: 78%;
+        height: 600px;
+        padding: 10px;
+        border: 2px solid #ddd;
+    }
+    #Title{
+        resize: none;
+        font-size: 20px;
+        width: 78%;
+        height: 100px;
+    }
+    #NewTags{
+        margin-top: 10px;
+        display:block;
+        width: 78%;
+    }
+    .send{
+        margin-left: 10px;
+    }
+    .tags-list{
+        margin-left: 10px;
+    }
+    #SelectedTags{
+        height: 150px;
+        padding-right: 5px;
+    }

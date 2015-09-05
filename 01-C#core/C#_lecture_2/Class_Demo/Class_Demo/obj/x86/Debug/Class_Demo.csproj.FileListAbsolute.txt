@@ -1,0 +1,7 @@
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\Class_Demo\Class_Demo\bin\Debug\Class_Demo.exe
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\Class_Demo\Class_Demo\bin\Debug\Class_Demo.pdb
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\Class_Demo\Class_Demo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\Class_Demo\Class_Demo\obj\x86\Debug\Class_Demo.exe
+D:\Microsoft\Учебные курсы\Курс 2956_2957\Модуль 1\Modul_1\Class_Demo\Class_Demo\obj\x86\Debug\Class_Demo.pdb
+E:\Documents\Course 2\Term II\EPAM .Net training\Lekcia2\Class_Demo\Class_Demo\obj\x86\Debug\Class_Demo.exe
+E:\Documents\Course 2\Term II\EPAM .Net training\Lekcia2\Class_Demo\Class_Demo\obj\x86\Debug\Class_Demo.pdb

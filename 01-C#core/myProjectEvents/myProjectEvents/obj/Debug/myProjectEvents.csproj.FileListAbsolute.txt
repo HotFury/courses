@@ -1,0 +1,9 @@
+D:\Study\EPAM\courses\projects\myProjectEvents\myProjectEvents\bin\Debug\myProjectEvents.exe.config
+D:\Study\EPAM\courses\projects\myProjectEvents\myProjectEvents\bin\Debug\myProjectEvents.exe
+D:\Study\EPAM\courses\projects\myProjectEvents\myProjectEvents\bin\Debug\myProjectEvents.pdb
+D:\Study\EPAM\courses\projects\myProjectEvents\myProjectEvents\obj\Debug\myProjectEvents.csprojResolveAssemblyReference.cache
+D:\Study\EPAM\courses\projects\myProjectEvents\myProjectEvents\obj\Debug\myProjectEvents.exe
+D:\Study\EPAM\courses\projects\myProjectEvents\myProjectEvents\obj\Debug\myProjectEvents.pdb
+D:\Study\EPAM\courses\C#_core\projects\myProjectEvents\myProjectEvents\bin\Debug\myProjectEvents.exe.config
+D:\Study\EPAM\courses\C#_core\projects\myProjectEvents\myProjectEvents\obj\Debug\myProjectEvents.exe
+D:\Study\EPAM\courses\C#_core\projects\myProjectEvents\myProjectEvents\obj\Debug\myProjectEvents.pdb

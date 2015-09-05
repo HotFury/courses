@@ -1,0 +1,175 @@
+﻿#sitebody 
+{
+    margin-left: 250px;
+    width: 850px;
+    overflow: hidden;
+}
+.picture 
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: crimson;
+}
+.top-right 
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+    width: 550px;
+    height: 200px;
+    background-color: mediumorchid;
+}
+.menu 
+{
+    width: 545px;
+    height: 60px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: dodgerblue;
+}
+.menulist
+{
+    margin-top:-16px;
+}
+.menuitem
+{
+    float: left;
+    border-radius: 5px;
+    width: 65px;
+    padding-left: 10px;
+    display: block;
+    margin-top: 42px;
+    margin-left:20px;
+    margin-bottom: 5px;
+    background-color: fuchsia;
+    
+}
+.menucurlink
+{
+    display: block;
+    border-radius: 5px;
+    background-color: darkorange;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -7px;
+    padding-top: 5px;
+    width: 65px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.menutext
+{
+    display: block;
+    text-decoration: none;
+}
+.menulist>li:hover
+{
+    background-color: yellow;
+    padding-top: 5px;
+    margin-top: 37px;
+}
+ol
+{
+    margin-left: -25px;
+    list-style: none;
+}
+.full-title 
+{
+    padding: 15px;
+    text-align: center;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 105px;
+    width: 265px;
+    background-color: aqua;
+}
+.picture-page
+{
+    float: left;
+    height: 135px;
+    width: 245px;
+    background-color: chartreuse;
+}
+.content 
+{
+    padding: 10px;
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+    min-height: 280px;
+    width: 680px;
+    background-color: darkorange;
+}
+.news-block 
+{
+    width: 150px;
+    float: left;
+    background-color: brown;
+}
+.newstitle 
+{
+    width: 80px;
+    margin-left: 5px;
+    padding-left: 15px;
+    background-color: yellowgreen;
+    margin-bottom: 0px;
+}
+.news
+{
+    margin-top: -16px;
+    height: 282px;
+    margin-left: 5px;
+    background-color: greenyellow;
+}
+.footer 
+{
+    clear: both;
+    height: 100px;
+    background-color: coral;
+}
+.contact
+{
+    padding: 10px;
+    float: left;
+    width: 385px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: magenta;
+}
+.search 
+{
+    float: left;
+    padding: 15px;
+    width: 405px;
+    height: 25px;
+    margin-bottom: 5px;
+    background-color: lawngreen;
+}
+.searchfield
+{
+    float: right;
+}
+.horizontalmenu 
+{
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    height:20px;
+    background-color: mediumseagreen;
+}
+.copyright 
+{
+    padding: 5px;
+    float: right;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 20px;
+    width: 350px;
+    background-color: darkgoldenrod;
+}

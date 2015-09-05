@@ -1,0 +1,16 @@
+﻿.questionary {
+}
+h2{
+    margin-left: 10px;
+}
+.answers{
+    list-style: none;
+    margin-top: 5px;
+}
+.aboutSelf{
+    width: 300px;
+    height: 150px;
+}
+.user{
+    margin-bottom: 10px;
+}

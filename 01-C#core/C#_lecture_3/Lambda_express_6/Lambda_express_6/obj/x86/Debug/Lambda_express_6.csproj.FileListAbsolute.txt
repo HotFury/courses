@@ -1,0 +1,7 @@
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Lambda_express_6\Lambda_express_6\bin\Debug\Lambda_express_6.exe
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Lambda_express_6\Lambda_express_6\bin\Debug\Lambda_express_6.pdb
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Lambda_express_6\Lambda_express_6\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Lambda_express_6\Lambda_express_6\obj\x86\Debug\Lambda_express_6.exe
+D:\Учебные дисциплины\EPAM\Осень 2014\Занятие 3 4 ноября\Problems\Lambda_express_6\Lambda_express_6\obj\x86\Debug\Lambda_express_6.pdb
+D:\Study\EPAM\courses\projects\C#_lecture_3\Lambda_express_6\Lambda_express_6\obj\x86\Debug\Lambda_express_6.exe
+D:\Study\EPAM\courses\projects\C#_lecture_3\Lambda_express_6\Lambda_express_6\obj\x86\Debug\Lambda_express_6.pdb

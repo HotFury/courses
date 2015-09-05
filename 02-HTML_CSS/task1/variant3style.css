@@ -1,0 +1,213 @@
+﻿#sitebody 
+{
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 800px;
+    overflow: hidden;
+}
+.logo 
+{
+    margin-top: -20px;
+    margin-left: 570px;
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    background-color: aquamarine;
+}
+.contacts 
+{
+    padding: 15px;
+    margin-left: -20px;
+    margin-top: -20px;
+    position: absolute;
+    width: 220px;
+    height: 120px;
+    background-color: aqua;
+}
+.tagline
+{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    height: 110px;
+    margin-top: 25px;
+    background-color: chartreuse;
+}
+.search 
+{
+    float: left;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 20px;
+    background-color: darkorange;
+}
+.menu 
+{
+    width: 510px;
+    height: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: dodgerblue;
+}
+.menulist
+{
+    margin-top: 35px;
+}
+.menuitem
+{
+    float: left;
+    border-radius: 5px;
+    width: 65px;
+    padding-left: 10px;
+    display: block;
+    margin-top: 8px;
+    margin-left:20px;
+    margin-bottom: 5px;
+    background-color: fuchsia;
+    
+}
+.menucurlink
+{
+    display: block;
+    border-radius: 5px;
+    background-color: darkorange;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -5px;
+    padding-top: 5px;
+    width: 65px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.menutext
+{
+    display: block;
+    text-decoration: none;
+}
+.menulist>li:hover
+{
+    background-color: yellow;
+    padding-top: 5px;
+    margin-top:3px;
+}
+ol
+{
+    margin-left: -25px;
+    list-style: none;
+}
+#left 
+{
+    float: left;
+    clear: both;
+    width: 650px;
+    height: 500px;
+    background-color: blue;
+}
+.picture 
+{
+    height: 50px;
+    background-color: gold;
+}
+.content 
+{
+    padding: 10px;
+    margin-top: 5px;
+    min-height: 380px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.horizontalmenu 
+{
+	text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    height:20px;
+    background-color: mediumseagreen;
+}
+#right 
+{
+    width: 150px;
+    float: left;
+    background-color: maroon;
+}
+.submenu
+{
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    height: 190px;
+    padding-bottom: 50px;
+    background-color: dodgerblue;
+}
+.submenuitem
+{
+    border-radius: 5px;
+    padding-left: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-left:20px;
+    margin-bottom: 5px;
+    background-color: fuchsia;
+    
+}
+.submenulist 
+{
+    margin-top: -5px;
+    margin-left: -60px;
+    width: 130px;
+    list-style: none;
+}
+.submenulist>li:hover
+{
+    background-color: yellow;
+    width: 110px;
+   
+}
+.submenucurlink
+{
+    display: block;
+    border-radius: 5px;
+    background-color: darkorange;
+    margin-left: -10px;
+    padding-left: 10px;
+    width: 110px;
+    text-decoration: none;
+}
+.menutext
+{
+    display: block;
+    text-decoration: none;
+}
+.newstitle 
+{
+    width: 70px;
+    padding-left: 15px;
+    margin-left: 10px;
+    min-height: 20px;
+    background-color: yellowgreen;
+    margin-bottom: 0px;
+}
+.news
+{
+    padding: 10px;
+    min-height: 140px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: greenyellow;
+}
+.copyright
+{
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 20px;
+    background-color: darkgoldenrod;
+}

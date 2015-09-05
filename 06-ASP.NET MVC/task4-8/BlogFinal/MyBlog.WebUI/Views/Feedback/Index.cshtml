@@ -1,0 +1,103 @@
+﻿@model MyBlog.WebUI.Models.DbFirst.FeedbacksShowViewModel
+@{
+    ViewBag.Title = "Отзывы";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section right_sidebar_style{
+    <link href="@Url.Content("~/Content/Styles/Feedback.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/Styles/Validation.css")" rel="stylesheet" type="text/css" />
+
+}
+@section main_body{
+    <div class="main-body">
+       @foreach (var item in Model.Feedbacks)
+        {
+           <span class="nick">
+                <strong>@Html.Raw(Model.GetUserNameById(item.UserId))</strong>
+           </span>            
+                if (item.Id == Model.EditId)
+                {   
+                    using (Html.BeginForm("Edit", "Feedback"))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationSummary(true)
+                        <div class="form-group">
+                            <div class="editor-field">
+                                @{
+                                    Model.NewFeedback.FeedbackText = item.FeedbackText;
+                                    Model.NewFeedback.Id = item.Id;
+                                    Model.NewFeedback.UserId = item.UserId;
+                                }
+                                @Html.TextAreaFor(model => model.NewFeedback.FeedbackText, new { id = "EditFeedbackText" })
+                                @Html.ValidationMessageFor(model => model.NewFeedback.FeedbackText)
+                            </div>
+
+                                @Html.HiddenFor(model => model.NewFeedback.UserId)
+                                @Html.HiddenFor(model => model.NewFeedback.Id)
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Сохранить" class="edit_delete_save_Link" />
+                        </div>
+                    }
+                }
+                else
+                {
+                    <span class="feedback-text">
+                        @Html.DisplayFor(model => item.FeedbackText)
+                    </span>
+                        
+                        if(User.Identity.Name == Model.GetUserNameById(item.UserId))
+                        { 
+                            @Html.ActionLink("Редактировать", "Edit", new { id = item.Id }, new { @class = "edit_delete_save_Link" }) 
+                            if (!User.IsInRole("Admin")) 
+                            {    
+                                @Html.ActionLink("Удалить", "Delete", new { id = item.Id }, new { @class = "edit_delete_save_Link" })  
+                            }
+                        }     
+                        if (User.IsInRole("Admin"))
+                        {
+                             @Html.ActionLink("Удалить", "Delete", new { id = item.Id }, new { @class = "edit_delete_save_Link" })  
+                        }               
+                }
+                
+                
+                <span class="date">@item.DateTime</span>
+        }
+    </div>
+}
+@section right_sidebar{
+    <div class="right-sidebar">
+        <div>
+            @if (Model.EditId == -1) 
+            { 
+                if (User.Identity.Name != "")
+                { 
+                    using (Html.BeginForm("Add", "Feedback"))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationSummary(true)
+                        @Html.Hidden("NewFeedback.UserId", Model.GetUserIdByName(User.Identity.Name))
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.NewFeedback.FeedbackText)
+                            <div class="editor-field">
+                                @Html.TextAreaFor(model => model.NewFeedback.FeedbackText, new { placeholder = "Введите текст отзыва" })
+                                @Html.ValidationMessageFor(model => model.NewFeedback.FeedbackText)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Отправить" class="btn-default" />
+                        </div>
+                    }
+                }
+                else
+                {
+                    <h3>Отзывы могут оставлять только зарегестрированные пользователи</h3>
+                    @Html.ActionLink("Зарегистрироваться", "Register", "Account", null, new { @class = "log-reg-link" })
+                    @Html.ActionLink("Войти", "Login", "Account", null, new { @class = "log-reg-link"})
+                }
+            }
+        </div>
+    </div>
+}
+
+

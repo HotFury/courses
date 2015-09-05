@@ -1,0 +1,10 @@
+D:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\bin\Debug\OOP_29_Polimorfizm_Question.exe
+D:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\bin\Debug\OOP_29_Polimorfizm_Question.pdb
+D:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\obj\x86\Debug\OOP_29_Polimorfizm_Question.exe
+D:\Microsoft\Учебные курсы\2124\Курс 2124\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\obj\x86\Debug\OOP_29_Polimorfizm_Question.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\obj\x86\Debug\OOP_29_Polimorfizm_Question.exe
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\obj\x86\Debug\OOP_29_Polimorfizm_Question.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\bin\Debug\OOP_29_Polimorfizm_Question.exe
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\bin\Debug\OOP_29_Polimorfizm_Question.pdb
+d:\Учебные дисциплины\EPAM\Осень 2014\Занятие 1 28 октября\OOP_29_Polimorfizm_Question\OOP_29_Polimorfizm_Question\obj\x86\Debug\ResolveAssemblyReference.cache

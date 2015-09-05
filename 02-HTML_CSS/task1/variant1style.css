@@ -1,0 +1,220 @@
+﻿.sitebody {
+    margin-top: 10px;
+    margin-left: 250px;
+    overflow: hidden;
+}
+#leftside 
+{
+    margin-right: 5px;
+    float: left;
+    width: 200px;
+    background-color: darkslategrey;
+}
+#rightside 
+{
+    float: left;
+    width: 600px;    
+    background-color: darkslateblue;
+}
+.logo 
+{
+    height: 100px;
+    background-color: aqua;
+}
+.anotation 
+{
+    margin-top: 5px;
+    text-align: center;
+    height: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blueviolet;
+}
+.submenu
+{
+    
+    margin-top: 20px;
+    margin-bottom: 5px;
+    float: right;
+    width: 140px;
+    height: 190px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    background-color: dodgerblue;
+}
+.contacts 
+{
+    padding: 10px;
+    margin-top: 10px;
+    clear: both;  
+    background-color: chartreuse;
+    height: 80px;
+}
+.menu
+{
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 5px;
+    width: 120px;
+    height: 170px;
+    float: left;
+    padding-bottom: 10px;
+    background-color: dodgerblue;
+}
+.picture 
+{
+    float: left;
+    width: 470px;
+    height: 200px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: darkorange;
+    
+}
+.newstitle 
+{
+    padding-left: 20px;
+    clear: both;
+    width: 70px;
+    margin-left: 20px;
+    float: left;
+    background-color: yellowgreen
+}
+.newstitle 
+{
+    padding-left: 20px;
+    clear: both;
+    min-height: 20px;
+    width: 70px;
+    margin-left: 20px;
+    float: left;
+    background-color: yellowgreen;
+}
+.eventtitle 
+{
+    padding-left: 20px;
+    min-height: 20px;
+    width: 70px;
+    margin-left: 220px;
+    float: left;
+     background-color: chartreuse;
+}
+.news
+{
+    clear: both;
+    width: 300px;
+    min-height: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: lightgreen;
+}
+.news-events-items
+{
+    margin-top: 10px;
+}
+.events 
+{
+    float: left;
+    min-height: 120px;
+    width: 285px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: aqua;
+    
+}
+.content 
+{
+    padding: 10px;
+    text-align: center;
+    clear: both;
+	min-height:210px;
+    background-color: crimson;
+}
+.horizontalmenu 
+{
+    text-align: center;
+    padding: 10px;
+    height:20px;
+    margin-top: 10px;
+    background-color: palegreen;
+
+}
+.submenuitem
+{
+    border-radius: 5px;
+    padding-left: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-left:20px;
+    margin-bottom: 5px;
+    background-color: fuchsia;
+    
+}
+.submenulist 
+{
+    margin-left: -30px;
+    width: 130px;
+    list-style: none;
+}
+.submenulist>li:hover
+{
+    background-color: yellow;
+    padding-left: 20px;
+    margin-left:10px;
+}
+.submenucurlink
+{
+    display: block;
+    border-radius: 5px;
+    background-color: darkorange;
+    margin-left: -20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.menuitem
+{
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+    width:70px;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: fuchsia;
+    text-align: center;
+    
+}
+.menulist 
+{
+    margin-top: -5px;
+    list-style: none;
+}
+.menulist>li:hover
+{
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left:-25px;
+}
+.menucurlink
+{
+    display: block;
+    border-radius: 5px;
+    background-color: darkorange;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:70px;
+    margin-left: -10px;
+    text-decoration: none;
+}
+.menutext
+{
+    display: block;
+    text-decoration: none;
+}
